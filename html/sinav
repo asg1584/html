@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ahmet Salih GUNES" />
+    <title>HTML uygulamasi</title>
+  </head>
+  <body>
+    <main>
+      <!--Header Start-->
+      <header>
+        <figure style="margin: 0px">
+          <img
+            style="width: 100%"
+            src="./wallpaper.jpeg"
+            alt="anasayfa resmi"
+          />
+        </figure>
+      </header>
+      <!--Header Finish-->
+
+      <!--Content Start-->
+      <section>
+        <h2>Web Fundemental-HTML-Final Project</h2>
+        <p>
+          HiCoders tarafindan sunulan Web Developer Kursu'nun
+          <mark>Web Fundamental HTML Modulu</mark> tamamlaniyor.
+        </p>
+        <hr />
+
+        <!--HTML Part Start-->
+        <fieldset>
+          <legend><strong>HTML MODULU</strong></legend>
+          <details open>
+            <summary>IPUCU</summary>
+            <br />
+            <mark
+              ><em
+                ><strong
+                  >HTML Modulunun tum derslerine katilim saglanir ve verilen tum
+                  odevler yapilir ise bir sonraki modul icin hazir
+                  olunur.</strong
+                ></em
+              ></mark
+            >
+            <p>HTML Modulunde ogrendiklerimiz:</p>
+            <ul>
+              <li>Tags</li>
+              <li>Attributes</li>
+              <li>Semantik Web</li>
+              <li>Layout</li>
+            </ul>
+          </details>
+        </fieldset>
+        <!--HTML Part Finish-->
+
+        <!--CSS Part Start-->
+        <fieldset>
+          <legend><strong>CSS Modulu</strong></legend>
+          <details open>
+            <summary>Önemli Uyarı</summary>
+            <br />
+            <strong>
+              <mark
+                ><em
+                  >Sadece ilk modulu basari ile tamamlayanlar CSS modulune
+                  katilmaya hak kazanacaklardir.</em
+                ></mark
+              >
+            </strong>
+            <p>CSS modulune katilmak icin asagidaki formu doldurunuz.</p>
+          </details>
+
+          <fieldset>
+            <form action="/kayit.html">
+              <label>Adiniz</label><br />
+              <input
+                type="text"
+                placeholder="Lutfen adinizi giriniz!"
+                required
+              /><br /><br />
+              <label>Soyadiniz</label><br />
+              <input
+                type="text"
+                placeholder="Lutfen soyadinizi giriniz!"
+                required
+              /><br /><br />
+              <label>Email</label><br />
+              <input
+                type="email"
+                placeholder="example@mail.com"
+                required
+              /><br /><br />
+              <label>Telefon</label><br />
+              <input
+                type="number"
+                placeholder="077XXXXXXX"
+                required
+              /><br /><br />
+              <label>Cinsiyet</label><br />
+              <input type="radio" name="gender" value="male" /><label>Bay</label
+              ><br />
+              <input type="radio" name="gender" value="fmale" /><label
+                >Bayan</label
+              ><br /><br />
+            </form>
+          </fieldset>
+        </fieldset>
+        <!--CSS Part Finish-->
+
+        <hr />
+      </section>
+      <!--Content Finish-->
+    </main>
+  </body>
+</html>
